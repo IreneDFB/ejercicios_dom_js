@@ -23,14 +23,14 @@ cars.forEach((car) => {
 })
 container.appendChild(carUl)
 //1.4
-const countries = [
+const countriesImg = [
   { title: 'Random title', imgUrl: 'https://picsum.photos/300/200?random=1' },
   { title: 'Random title', imgUrl: 'https://picsum.photos/300/200?random=2' },
   { title: 'Random title', imgUrl: 'https://picsum.photos/300/200?random=3' },
   { title: 'Random title', imgUrl: 'https://picsum.photos/300/200?random=4' },
   { title: 'Random title', imgUrl: 'https://picsum.photos/300/200?random=5' }
 ]
-countries.forEach((country) => {
+countriesImg.forEach((country) => {
   const div = document.createElement('div')
   const h4 = document.createElement('h4')
   h4.textContent = country.title
